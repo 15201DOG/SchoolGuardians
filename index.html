@@ -6,13 +6,15 @@
     <title>SchoolGuardians</title>
 </head>
 <body>
-    <p>
-    <iframe src="silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>  
-<audio autoplay loop id="bgmAudio">
-	<source src="Ending1.mp3" type="audio/mp3" />
+<audio loop muted id="autoplay">
+	<source src="Ending1.mp3" type="audio/mp3">
 </audio>
+<script>
+	window.onload = function() {
+		document.getElementById("autoplay").play();
+	}
+</script>
     <h1>School Guardians</h1>
     <br><br><br><br><br><a href="play.html">start</a>
-</p>
 </body>
 </html>
