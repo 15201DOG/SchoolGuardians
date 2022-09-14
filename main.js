@@ -17,8 +17,8 @@ var user = {
 
 class Alien1 {
     constructor(){
-        this.x = 1770;
-        this.y = 810;
+        this.x = 0;
+        this.y = 0;
         this.width = 50;
         this.height = 50;
         this.hp = 100;
