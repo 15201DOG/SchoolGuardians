@@ -30,10 +30,8 @@ class Alien1 {
     }
 }
 
-function 이동(){
-    animation = requestAnimationFrame(이동);
-
-    ctx.clearRect(0,0, canvas.width, canvas.height);
+animation = requestAnimationFrame(() => {
+    ctx.clearR.height);ect(0,0, canvas.width, canvas
 
     var alien1 = new Alien1();
     alien1.draw();
@@ -74,9 +72,8 @@ function 이동(){
         user.y = 810;
     }
 
-    user.draw()
-}
-    이동();
+    user.draw();
+});
 
 var right = false;
 var left = false;
